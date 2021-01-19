@@ -22,3 +22,78 @@ final = pd.concat([header,new], axis =0)
 #print(final)
 
 final.to_excel("Pid_ESR1_Mutation.xlsx", sheet_name="BaseSpace Stats",index = False, header=False)  ## Deleted both column names and index names from the file
+
+
+#Input:
+ TruSight Tumor 170	
+For Research Use Only. Not for use in diagnostic procedures.	
+	
+[Analysis Details]	
+Report Date	12-01-2021
+Report Time	12:43:36
+Pipeline Version	2.0.1
+	
+[Run Metrics]	
+Metric (UOM)	Value
+NA	
+	
+[Sample Status]	
+	20297379
+COMPLETED_ALL_STEPS	TRUE
+FAILED_STEPS	NA
+STEPS_NOT_EXECUTED	NA
+	
+[DNA Library QC Metrics for Small Variant Calling]	
+Metric (UOM)	20297379
+PCT_CHIMERIC_READS (%)	0
+MEDIAN_INSERT_SIZE (count)	167
+PCT_EXON_250X (%)	96.3
+	
+[DNA Library QC Metrics for Copy Number Variant Calling]	
+Metric (UOM)	20297379
+PCT_CHIMERIC_READS (%)	0
+COVERAGE_MAD (count)	0.15
+MEDIAN_BIN_COUNT_CNV_TARGET (count)	13.3
+	
+[DNA Library QC Metrics for MSI]	
+Metric (UOM)	20297379
+USABLE_MSI_SITES (count)	83
+	
+[DNA Expanded Metrics]	
+Metric (UOM)	20297379
+TOTAL_PF_READS (count)	124639794
+PCT_PF_UQ_READS (%)	15
+PCT_READ_ENRICHMENT (%)	87.7
+MEAN_TARGET_COVERAGE (count)	1552.4
+PCT_TARGET_250X (%)	95
+PCT_TARGET_0.4X_MEAN (%)	89.8
+PCT_EXON_100X (%)	97.5
+PCT_ALIGNED_READS (%)	99.8
+   
+#Output         
+
+
+Metric (UOM)	20297379
+COVERAGE_MAD (count)	0.15
+MEAN_TARGET_COVERAGE (count)	1552.4
+MEDIAN_BIN_COUNT_CNV_TARGET (count)	13.3
+MEDIAN_INSERT_SIZE (count)	167
+PCT_ALIGNED_READS (%)	99.8
+PCT_CHIMERIC_READS (%)	0.0
+PCT_EXON_100X (%)	97.5
+PCT_EXON_250X (%)	96.3
+PCT_PF_UQ_READS (%)	15.0
+PCT_READ_ENRICHMENT (%)	87.7
+PCT_TARGET_0.4X_MEAN (%)	89.8
+PCT_TARGET_250X (%)	95.0
+TOTAL_PF_READS (count)	124639794
+USABLE_MSI_SITES (count)	83
+
+
+
+
+
+
+
+
+
